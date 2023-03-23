@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .peoplesoft-header {
+        margin: 8px 8px 7px 8px; 
+      }
+      iframe {
+        height: 900px;
+        width: 100%;
+      }
+      .long-content {
+        height: 800px;
+        width: 310px;
+        background-color: darkgreen;
+      }
+      .iframe-wrapper {
+        padding: .5em 1em;
+      }
+      .third-party-page {
+        height: 44px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="peoplesoft-header" style="height: 102px; border: 1px solid black;">
+      Peoplesoft Header
+    </div>
+    <div class="iframe-wrapper">
+      <div class="third-party-page">Third Party Page</div>
+      <iframe src="http://192.168.1.179:5173/"></iframe>
+    </div>
+    <!-- <iframe
+      src="https://lab.touchnet.net/C30006_pmtclient/test_page.jsp"
+    ></iframe> -->
+    <div class="long-content">
+      This is long content. Keep scrolling.
+    </div>
+    <div>
+      even more content
+    </div>
+  </body>
+</html>
