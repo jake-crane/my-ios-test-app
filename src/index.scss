@@ -1,6 +1,6 @@
 /* CSS specific to iOS devices */
 @supports (-webkit-touch-callout: none) {
-  .iframed-modal {
+  .modal-iframed {
     flex-direction: column;
     justify-content: end;
     height: 100%;

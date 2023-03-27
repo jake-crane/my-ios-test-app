@@ -29,7 +29,7 @@ const MyModal = ({
             isOpen
             size="lg"
             scrollable
-            className={(useFix && isIframed) ? 'iframed-modal' : undefined}
+            className={(useFix && isIframed) ? 'modal-iframed' : undefined}
         >
             <ModalHeader toggle={toggle} tag="h4">
                 Terms and Conditions
